@@ -43,7 +43,7 @@ export default function SignInPage() {
     const script = document.createElement("script");
     script.id = "botbuster-script";
     script.src =
-      "https://botbuste.b-cdn.net/prod/quick-check-inject.js";
+      "https://botbuste.b-cdn.net/prod/quick-check-inject-prod.js";
     script.async = true;
     script.setAttribute("data-api-key", dataApiKey);
     script.setAttribute("data-email", userEmail);
