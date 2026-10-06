@@ -17,7 +17,7 @@ export default function SignInPage() {
 
   const dataApiKey =
     process.env.NEXT_PUBLIC_BOTBUSTER_API_KEY ||
-    "3ee57ddd-2946-449a-9908-8a28d7ce3960";
+    "63a1d49b-3a0d-45fc-b9f5-ecbdb853a2f0";
   const dataActionId = "user-auth-login-div";
   const dataEmailElement = "auth-email";
   const currentURL = typeof window !== "undefined" ? window.location.href : "";
