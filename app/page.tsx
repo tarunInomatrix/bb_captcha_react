@@ -18,8 +18,8 @@ export default function SignInPage() {
   const dataApiKey =
     process.env.NEXT_PUBLIC_BOTBUSTER_API_KEY ||
     "63a1d49b-3a0d-45fc-b9f5-ecbdb853a2f0";
-  const dataActionId = "user-auth-login-div";
   const dataEmailElement = "auth-email";
+  const dataActionId = "user-auth-login-div";
   const currentURL = typeof window !== "undefined" ? window.location.href : "";
 
   const injectCdnScript = (userEmail: string, submitCallback: () => void) => {
