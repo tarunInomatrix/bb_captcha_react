@@ -3,7 +3,9 @@
 import React, { useState, useEffect } from "react";
 
 const DEV_SCRIPT_URL = "https://botbuste.b-cdn.net/dev/quick-check-inject.js";
-const DEV_API_KEY = "3ee57ddd-2946-449a-9908-8a28d7ce3960";
+const DEV_API_KEY =
+  process.env.NEXT_PUBLIC_BOTBUSTER_DEV_API_KEY ||
+  "3ee57ddd-2946-449a-9908-8a28d7ce3960";
 const DATA_EMAIL_ELEMENT = "auth-email";
 const DATA_ACTION_ID = "user-auth-login-div";
 
